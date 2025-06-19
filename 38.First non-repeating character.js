@@ -7,16 +7,14 @@ const firstNonRepeatingChar = (str) => {
     }
 
     for (let char of str) {
-        if (charCount[char] === 1) {
+        if(charCount[char]===1){
             return char
         }
-
     }
 
-    return null         // in case all char repeat
-
+    return null
 }
 
 
-const input = 'swiss'
+const input = 'swissswiss'
 console.log(firstNonRepeatingChar(input))

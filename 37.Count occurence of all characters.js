@@ -1,11 +1,10 @@
 const countCharacters = (str) => {
-    const charCount = {};
+    const charCount = {}
 
     for (let char of str) {
-        charCount[char] = (charCount[char] || 0) + 1;
+        charCount[char] = (charCount[char] || 0) + 1
     }
-
-    return charCount;
+    return charCount
 };
 
 const input = "hello world";
